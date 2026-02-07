@@ -1,4 +1,4 @@
-📘 TrainingTracker Bot
+ 📘 TrainingTracker Bot
 A powerful, privacy‑first Discord bot for logging, analyzing, and improving your training habits.
 TrainingTracker helps you track sessions, set goals, monitor streaks, compare activities, and export your data — all through clean, intuitive slash commands.
 
@@ -146,7 +146,7 @@ Exports include only the requesting user’s data
 🛠 Installation
 1. Clone the repository
 Code
-git clone https://github.com/yourusername/TrainingTracker-bot
+git clone https://github.com/r0x0x/TrainingTracker-bot
 cd TrainingTracker-bot
 2. Install dependencies
 Code
