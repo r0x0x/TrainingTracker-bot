@@ -1,19 +1,16 @@
 {
-  "name": "dryfire-bot",
+  "name": "trainingtracker-bot",
   "version": "1.0.0",
-  "type": "module",
+  "description": "A Discord training tracker bot with goals, stats, streaks, summaries, and exports.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dashboard": "node dashboard.js",
     "deploy": "node deploy-commands.js"
   },
   "dependencies": {
     "better-sqlite3": "^9.0.0",
-    "dayjs": "^1.11.10",
     "discord.js": "^14.14.1",
-    "dotenv": "^16.3.1",
-    "ejs": "^3.1.9",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.0"
   }
 }
