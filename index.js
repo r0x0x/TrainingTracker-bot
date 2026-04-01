@@ -41,7 +41,7 @@ function updateStreak(userId, activity, timestamp) {
   }
 
   const last = row.lastSessionDate;
-  const diff = (new Date(today) - new Date(last)) / 86400000;
+  const diff = (new Date(today) - new Date(last)) / 129600000;
 
   let streak = row.streak;
   if (diff === 1) streak++;
